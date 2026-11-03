@@ -23,7 +23,7 @@ jobs:
       - run: python -m pytest -q
       - run: python -m evaluation.run
       - run: python -m evaluation.benchmark
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: evaluation-results
