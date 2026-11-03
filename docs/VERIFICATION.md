@@ -1,6 +1,6 @@
 # Verification record
 
-Date: 3 November 2026. Host test interpreter: Python 3.10.9, macOS-27.2-arm64-arm-64bit. Deployment target: Python 3.12 in Docker. Host tests do not prove the container image works.
+Date: 3 November 2026. Host test interpreter: Python 3.10.9, macOS-27.2-arm64-arm-64bit. Deployment target: Python 3.12 in Docker. The container image was also built and started locally with Docker Compose, and CI builds it on every push.
 
 | Check | Observed result |
 |---|---|
@@ -16,7 +16,8 @@ Date: 3 November 2026. Host test interpreter: Python 3.10.9, macOS-27.2-arm64-ar
 | Online backup | Backup of live five-document sample database completed and integrity checked |
 | JavaScript | `node --check app/static/app.js` passed |
 | Compose | `docker compose config --quiet` passed with test environment keys |
-| Container startup | Not executed: Docker daemon unavailable on this host |
+| Container startup | `docker compose up --build -d` on Docker 29.8.0: `/health/ready`, `/`, `app.js` and `style.css` returned 200 |
+| GitHub CI | Quality gate on `main`: tests, evaluation, benchmark and Docker image build passed |
 | Browser | UI loaded; same-title RCA/SOP results separated; ambiguity visible; SOP source dialog and cited exact-order chat verified |
 | TOML | No TOML files in application deliverable; application does not read TOML |
 

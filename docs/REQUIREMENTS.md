@@ -12,6 +12,6 @@
 | Quality measurement | Declared development/holdout, per-origin/task summaries, raw outputs, CI | Tiny synthetic sample; fresh sealed real-corpus set required |
 | Latency and cost | Per-request headers/logs, raw timings, synthetic scale benchmark, zero model spend | No network/400-user SLO proof; hosting cost separate |
 | Operations | Safe errors, health, transaction consistency, redaction, bounded extraction, metrics, backup tool | SSO/ACLs, HA, full DLP, encrypted backups, rate limits and source connectors remain production work |
-| Deliverables | Source, Docker command, UI, README, run guide, design, report, tests, isolation evidence, evaluation outputs, cuts | No private remote repository created or published |
+| Deliverables | Source, Docker command, UI, README, run guide, design, report, tests, isolation evidence, evaluation outputs, cuts; private GitHub repository with CI on every push | None outstanding for delivery |
 
 The “isolation evidence” wording is ambiguous in the supplied brief. This repository documents RCA/SOP and reader/curator isolation explicitly; it does not imply tenant isolation.

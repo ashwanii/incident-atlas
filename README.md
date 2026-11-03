@@ -1,6 +1,6 @@
 # Incident Atlas
 
-![Quality gate](../../actions/workflows/quality.yaml/badge.svg) ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg) ![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)
+[![Quality gate](https://github.com/ashwanii/incident-atlas/actions/workflows/quality.yaml/badge.svg)](https://github.com/ashwanii/incident-atlas/actions/workflows/quality.yaml) ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg) ![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)
 
 A FastAPI application for RCA and SOP knowledge: ingestion, versioning, separate search results, live-issue suggestions, source-grounded chat, legacy review, and a browser UI. No TOML configuration or files are used by this project. Dependencies are in `requirements.txt`; deployment uses YAML and environment variables.
 

@@ -16,4 +16,4 @@
 | Automatic source removal reconciliation | No upstream connector configured | Scheduled sync tombstones and optimistic upstream revision checks |
 | Full DLP / encryption / network controls | Organization-specific infrastructure | Secret scanner, KMS, TLS ingress, WAF/rate limits, egress policy and backup drills |
 
-No external Git repository was created or published. This folder/ZIP is ready to initialize and push to a private repository under the user's account after normal review. The PDF's submission wording is a deliverable reference, not authorization to access or publish to an account.
+The code is published to a private GitHub repository, where CI runs the tests, evaluation, benchmark and Docker build on every push.
