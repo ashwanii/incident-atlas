@@ -1,6 +1,6 @@
 # Verification record
 
-Date: 3 November 2026. Host test interpreter: Python 3.10.9, macOS-27.2-arm64-arm-64bit. Deployment target: Python 3.12 in Docker. The container image was also built and started locally with Docker Compose, and CI builds it on every push.
+Date: 3 November 2026. Regression suite (`test-results.txt`): Python 3.12 in the `python:3.12-slim` container. Evaluation and benchmark runs: Python 3.10.9, macOS-27.2-arm64-arm-64bit. Deployment target: Python 3.12 in Docker. The container image was also built and started locally with Docker Compose, and CI builds it on every push.
 
 | Check | Observed result |
 |---|---|
