@@ -1,0 +1,33 @@
+request_id=9bcea8df228b4fb3a1102e5219ce46c4 route=/api/documents status=200 latency_ms=4.987 llm_cost_usd=0
+HTTP Request: POST http://testserver/api/documents "HTTP/1.1 200 OK"
+request_id=394698c25ef3446f90b49cd6c2a7bef0 route=/api/documents status=200 latency_ms=3.419 llm_cost_usd=0
+HTTP Request: POST http://testserver/api/documents "HTTP/1.1 200 OK"
+request_id=d8eeb2f618194a0281b85607f3ce3962 route=/api/documents status=200 latency_ms=2.756 llm_cost_usd=0
+HTTP Request: POST http://testserver/api/documents "HTTP/1.1 200 OK"
+request_id=7ae73573fb69447789a5da555a2868a4 route=/api/documents status=200 latency_ms=3.715 llm_cost_usd=0
+HTTP Request: POST http://testserver/api/documents "HTTP/1.1 200 OK"
+request_id=344965972eac4481a4d8db5ea06ddd6d route=/api/documents status=200 latency_ms=2.807 llm_cost_usd=0
+HTTP Request: POST http://testserver/api/documents "HTTP/1.1 200 OK"
+request_id=ab150c78dc4a43a2a572fb65d1a8a936 route=/api/search status=200 latency_ms=2.089 llm_cost_usd=0
+HTTP Request: GET http://testserver/api/search?q=redis+memory+exhaustion "HTTP/1.1 200 OK"
+request_id=064529f381c747d7867220739c929bdc route=/api/search status=200 latency_ms=1.711 llm_cost_usd=0
+HTTP Request: GET http://testserver/api/search?q=Kafka+consumer+lag "HTTP/1.1 200 OK"
+request_id=afbc6db456424202af98739900b00bc0 route=/api/search status=200 latency_ms=1.421 llm_cost_usd=0
+HTTP Request: GET http://testserver/api/search?q=DOC-NONEXISTENT "HTTP/1.1 200 OK"
+request_id=8ca8f437263f498ea0ef793c9521ccbc route=/api/suggest status=200 latency_ms=3.21 llm_cost_usd=0
+HTTP Request: GET http://testserver/api/suggest?q=redis+memory+exhaustion "HTTP/1.1 200 OK"
+request_id=55e26de963e54353b7574fc87e5c0038 route=/api/suggest status=200 latency_ms=2.477 llm_cost_usd=0
+HTTP Request: GET http://testserver/api/suggest?q=kafka+consumer+lag "HTTP/1.1 200 OK"
+request_id=32acb8c1590c4e3ba4b6611010dee1ce route=/api/suggest status=200 latency_ms=2.21 llm_cost_usd=0
+HTTP Request: GET http://testserver/api/suggest?q=volcano+eruption "HTTP/1.1 200 OK"
+request_id=63f33abbf2794ef9812338aab849c43d route=/api/chat status=200 latency_ms=3.479 llm_cost_usd=0
+HTTP Request: POST http://testserver/api/chat "HTTP/1.1 200 OK"
+request_id=01d40b7e8de64abba3e4cdbd03380eff route=/api/chat status=200 latency_ms=3.759 llm_cost_usd=0
+HTTP Request: POST http://testserver/api/chat "HTTP/1.1 200 OK"
+request_id=6675cc6d0d664400a78f5ffffa2c8984 route=/api/chat status=200 latency_ms=2.471 llm_cost_usd=0
+HTTP Request: POST http://testserver/api/chat "HTTP/1.1 200 OK"
+{
+  "passed": true,
+  "cases": 15,
+  "p95_local_api_ms": 6.394
+}

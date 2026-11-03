@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "identity": {
+      "n": 100,
+      "p95_ms": 54.3,
+      "p99_ms": 63.776
+    },
+    "lexical": {
+      "n": 100,
+      "p95_ms": 89.95,
+      "p99_ms": 93.971
+    }
+  },
+  "all_correct": true
+}

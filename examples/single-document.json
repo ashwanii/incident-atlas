@@ -1,0 +1,13 @@
+{
+  "source_key": "wiki/kafka/rca-2026-09",
+  "title": "Kafka consumer lag",
+  "kind": "RCA",
+  "services": [
+    "kafka",
+    "checkout"
+  ],
+  "origin": "greenfield",
+  "owner": "streaming-sre",
+  "reviewed_on": "2026-10-15",
+  "content": "# Kafka consumer lag\n## Root cause\nAn undersized consumer pool exhausted processing capacity after deployment.\n## Impact\nCheckout events were delayed for 18 minutes.\n## Timeline\n09:00 alert fired. 09:18 service recovered.\n## Corrective actions\nIncrease consumer capacity and alert on queue age."
+}

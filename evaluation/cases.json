@@ -1,0 +1,17 @@
+[
+ {"split":"development","origin":"greenfield","task":"intent","query":"why did kafka lag increase","expected":"RCA"},
+ {"split":"development","origin":"greenfield","task":"intent","query":"how to fix kafka lag","expected":"SOP"},
+ {"split":"development","origin":"brownfield","task":"search","query":"redis memory exhaustion","expected":"RCA"},
+ {"split":"holdout","origin":"greenfield","task":"intent","query":"show the rollback prerequisites","expected":"SOP"},
+ {"split":"holdout","origin":"brownfield","task":"intent","query":"what was the incident impact","expected":"RCA"},
+ {"split":"holdout","origin":"brownfield","task":"intent","query":"help","expected":null},
+ {"split":"holdout","origin":"brownfield","task":"intent","query":"why and how to recover","expected":null},
+ {"split":"holdout","origin":"greenfield","task":"search","query":"Kafka consumer lag","expected":"AMBIGUOUS"},
+ {"split":"holdout","origin":"brownfield","task":"search","query":"DOC-NONEXISTENT","expected":"NONE"},
+ {"split":"holdout","origin":"brownfield","task":"suggest","query":"redis memory exhaustion","expected":"RCA"},
+ {"split":"holdout","origin":"greenfield","task":"suggest","query":"kafka consumer lag","expected":"BOTH"},
+ {"split":"holdout","origin":"brownfield","task":"suggest","query":"volcano eruption","expected":"NONE"},
+ {"split":"holdout","origin":"greenfield","task":"chat","query":"how to fix kafka lag","expected":"SOP"},
+ {"split":"holdout","origin":"brownfield","task":"chat","query":"what caused redis memory exhaustion","expected":"RCA"},
+ {"split":"holdout","origin":"brownfield","task":"chat","query":"why volcano eruption","expected":"NONE"}
+]

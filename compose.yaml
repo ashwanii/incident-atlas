@@ -1,0 +1,21 @@
+services:
+  atlas:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      API_KEY: ${API_KEY:?Set API_KEY in .env}
+      ADMIN_KEY: ${ADMIN_KEY:?Set ADMIN_KEY in .env}
+      DATA_DIR: /data
+    volumes:
+      - atlas-data:/data
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,noexec,nosuid
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 512m
+    cpus: 1.0
+volumes:
+  atlas-data:

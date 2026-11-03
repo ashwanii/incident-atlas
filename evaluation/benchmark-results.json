@@ -1,0 +1,1424 @@
+{
+  "environment": {
+    "python": "3.10.9",
+    "platform": "macOS-27.2-arm64-arm-64bit"
+  },
+  "method": "3000 short synthetic published RCA fixtures inserted directly, 200 in-process GET requests, 8 client threads. Includes telemetry writes. Excludes network/TLS/container and ingestion. Not a 400-user load test or semantic benchmark.",
+  "search_p95_budget_ms": 1000,
+  "latency_gate_passed": true,
+  "summary": {
+    "identity": {
+      "n": 100,
+      "p95_ms": 54.3,
+      "p99_ms": 63.776
+    },
+    "lexical": {
+      "n": 100,
+      "p95_ms": 89.95,
+      "p99_ms": 93.971
+    }
+  },
+  "results": [
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 35.095,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 91.354,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 33.967,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 90.402,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 34.082,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 91.063,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 33.574,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 89.775,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 53.823,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 58.195,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 55.676,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 57.727,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 34.389,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 74.503,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 32.653,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 93.971,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 29.511,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 79.718,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 30.35,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 89.95,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 36.173,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 64.475,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 28.05,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 63.611,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 63.776,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 57.929,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 51.338,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 74.569,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 32.582,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 62.371,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 28.334,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 58.97,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 33.22,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 57.094,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 31.463,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 57.129,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 30.807,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 78.286,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 26.914,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 75.099,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 26.019,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 78.363,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 25.927,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 53.859,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 52.215,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 53.46,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 51.264,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 52.367,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 28.818,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 81.121,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 27.38,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 81.393,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 25.31,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 78.995,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 25.135,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 78.062,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 48.115,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 56.223,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 52.65,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 55.606,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 33.067,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 82.465,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 28.696,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 80.478,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 27.039,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 77.58,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 25.706,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 78.038,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 52.908,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 53.806,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 51.28,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 52.702,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 26.81,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 79.489,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 26.25,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 79.014,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 25.874,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 77.076,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 25.92,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 76.199,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 52.572,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 54.258,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 52.412,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 52.916,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 29.202,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 85.393,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 29.39,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 85.144,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 27.38,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 82.328,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 27.081,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 82.696,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 55.729,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 57.625,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 55.261,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 56.449,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 27.113,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 80.598,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 26.014,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 80.632,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 26.392,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 77.991,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 25.393,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 79.394,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 53.741,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 55.276,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 53.77,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 54.752,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 30.945,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 80.295,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 30.329,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 83.578,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 28.617,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 82.708,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 27.455,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 83.205,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 53.672,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 54.909,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 53.049,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 54.431,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 28.528,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 80.768,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 26.389,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 79.23,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 24.495,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 78.392,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 24.49,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 76.449,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 53.521,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 55.052,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 50.748,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 54.729,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 30.62,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 82.518,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 29.642,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 83.358,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 27.85,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 82.366,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 27.497,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 80.992,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 54.3,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 55.493,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 53.422,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 55.266,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 26.885,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 77.693,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 25.359,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 75.4,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 24.879,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 74.833,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 25.046,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 76.441,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 51.752,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 51.967,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 50.621,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 51.41,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 27.485,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 81.594,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 27.259,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 79.285,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 25.066,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 79.743,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 24.866,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 80.067,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 54.198,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 56.021,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 51.867,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 54.032,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 27.894,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 79.401,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 27.041,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 77.787,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 25.782,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 78.627,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 24.327,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 75.772,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 49.632,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 53.133,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 48.457,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 53.1,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 27.49,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 78.319,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 23.888,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 75.68,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 24.319,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 74.97,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 22.614,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 72.742,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 51.274,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 52.421,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 48.947,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 51.206,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 27.033,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 57.091,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 25.977,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 56.249,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 25.216,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 55.936,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "identity",
+      "status": 200,
+      "latency_ms": 24.203,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    },
+    {
+      "task": "lexical",
+      "status": 200,
+      "latency_ms": 33.134,
+      "correct_top1": true,
+      "llm_cost_usd": 0
+    }
+  ],
+  "all_correct": true
+}

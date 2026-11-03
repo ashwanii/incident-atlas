@@ -1,0 +1,284 @@
+{
+  "method": "Synthetic, local in-process TestClient; not network or load latency. No assignment query dataset was supplied. Holdout was declared before running; tiny sample is not statistically reliable.",
+  "results": [
+    {
+      "split": "development",
+      "origin": "greenfield",
+      "task": "intent",
+      "query": "why did kafka lag increase",
+      "expected": "RCA",
+      "actual": "RCA",
+      "passed": true,
+      "latency_ms": 0.223,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    },
+    {
+      "split": "development",
+      "origin": "greenfield",
+      "task": "intent",
+      "query": "how to fix kafka lag",
+      "expected": "SOP",
+      "actual": "SOP",
+      "passed": true,
+      "latency_ms": 0.003,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    },
+    {
+      "split": "development",
+      "origin": "brownfield",
+      "task": "search",
+      "query": "redis memory exhaustion",
+      "expected": "RCA",
+      "actual": "RCA",
+      "passed": true,
+      "latency_ms": 3.706,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    },
+    {
+      "split": "holdout",
+      "origin": "greenfield",
+      "task": "intent",
+      "query": "show the rollback prerequisites",
+      "expected": "SOP",
+      "actual": "SOP",
+      "passed": true,
+      "latency_ms": 0.005,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    },
+    {
+      "split": "holdout",
+      "origin": "brownfield",
+      "task": "intent",
+      "query": "what was the incident impact",
+      "expected": "RCA",
+      "actual": "RCA",
+      "passed": true,
+      "latency_ms": 0.003,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    },
+    {
+      "split": "holdout",
+      "origin": "brownfield",
+      "task": "intent",
+      "query": "help",
+      "expected": null,
+      "actual": null,
+      "passed": true,
+      "latency_ms": 0.001,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    },
+    {
+      "split": "holdout",
+      "origin": "brownfield",
+      "task": "intent",
+      "query": "why and how to recover",
+      "expected": null,
+      "actual": null,
+      "passed": true,
+      "latency_ms": 0.002,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    },
+    {
+      "split": "holdout",
+      "origin": "greenfield",
+      "task": "search",
+      "query": "Kafka consumer lag",
+      "expected": "AMBIGUOUS",
+      "actual": "AMBIGUOUS",
+      "passed": true,
+      "latency_ms": 3.573,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    },
+    {
+      "split": "holdout",
+      "origin": "brownfield",
+      "task": "search",
+      "query": "DOC-NONEXISTENT",
+      "expected": "NONE",
+      "actual": "NONE",
+      "passed": true,
+      "latency_ms": 3.242,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    },
+    {
+      "split": "holdout",
+      "origin": "brownfield",
+      "task": "suggest",
+      "query": "redis memory exhaustion",
+      "expected": "RCA",
+      "actual": "RCA",
+      "passed": true,
+      "latency_ms": 4.893,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    },
+    {
+      "split": "holdout",
+      "origin": "greenfield",
+      "task": "suggest",
+      "query": "kafka consumer lag",
+      "expected": "BOTH",
+      "actual": "BOTH",
+      "passed": true,
+      "latency_ms": 4.327,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    },
+    {
+      "split": "holdout",
+      "origin": "brownfield",
+      "task": "suggest",
+      "query": "volcano eruption",
+      "expected": "NONE",
+      "actual": "NONE",
+      "passed": true,
+      "latency_ms": 3.848,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    },
+    {
+      "split": "holdout",
+      "origin": "greenfield",
+      "task": "chat",
+      "query": "how to fix kafka lag",
+      "expected": "SOP",
+      "actual": "SOP",
+      "passed": true,
+      "latency_ms": 4.982,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    },
+    {
+      "split": "holdout",
+      "origin": "brownfield",
+      "task": "chat",
+      "query": "what caused redis memory exhaustion",
+      "expected": "RCA",
+      "actual": "RCA",
+      "passed": true,
+      "latency_ms": 6.394,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    },
+    {
+      "split": "holdout",
+      "origin": "brownfield",
+      "task": "chat",
+      "query": "why volcano eruption",
+      "expected": "NONE",
+      "actual": "NONE",
+      "passed": true,
+      "latency_ms": 4.482,
+      "llm_calls": 0,
+      "llm_tokens": 0,
+      "llm_cost_usd": 0
+    }
+  ],
+  "summary": [
+    {
+      "split": "development",
+      "origin": "greenfield",
+      "task": "intent",
+      "n": 2,
+      "passed": 2,
+      "accuracy": 1.0
+    },
+    {
+      "split": "development",
+      "origin": "brownfield",
+      "task": "search",
+      "n": 1,
+      "passed": 1,
+      "accuracy": 1.0
+    },
+    {
+      "split": "holdout",
+      "origin": "greenfield",
+      "task": "intent",
+      "n": 1,
+      "passed": 1,
+      "accuracy": 1.0
+    },
+    {
+      "split": "holdout",
+      "origin": "brownfield",
+      "task": "intent",
+      "n": 3,
+      "passed": 3,
+      "accuracy": 1.0
+    },
+    {
+      "split": "holdout",
+      "origin": "greenfield",
+      "task": "search",
+      "n": 1,
+      "passed": 1,
+      "accuracy": 1.0
+    },
+    {
+      "split": "holdout",
+      "origin": "brownfield",
+      "task": "search",
+      "n": 1,
+      "passed": 1,
+      "accuracy": 1.0
+    },
+    {
+      "split": "holdout",
+      "origin": "brownfield",
+      "task": "suggest",
+      "n": 2,
+      "passed": 2,
+      "accuracy": 1.0
+    },
+    {
+      "split": "holdout",
+      "origin": "greenfield",
+      "task": "suggest",
+      "n": 1,
+      "passed": 1,
+      "accuracy": 1.0
+    },
+    {
+      "split": "holdout",
+      "origin": "greenfield",
+      "task": "chat",
+      "n": 1,
+      "passed": 1,
+      "accuracy": 1.0
+    },
+    {
+      "split": "holdout",
+      "origin": "brownfield",
+      "task": "chat",
+      "n": 2,
+      "passed": 2,
+      "accuracy": 1.0
+    }
+  ],
+  "p95_local_api_ms": 6.394,
+  "passed": true
+}
